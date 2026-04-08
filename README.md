@@ -30,39 +30,41 @@ Code**，協助前端工程師、UI/UX 設計師、產品經理、建築師、�
 
 ## 安裝方式
 
-### Windsurf
+### 方法一：全域安裝（推薦）
 
-#### 方法一：複製到 Windsurf 專案
+複製 skill 檔案到你的 IDE 設定目錄，所有專案皆可使用：
 
-1. 複製此專案到你的 Windsurf 工作區
-2. 在 Windsurf 中開啟專案
-3. AI 將自動載入 skill 並開始提供諮詢
+**Windsurf**：
 
-#### 方法二：手動安裝 Skill
+```bash
+# macOS
+cp .windsurf/skills/taiwan-public-icon-consultant.md ~/Library/Application\ Support/Windsurf/skills/
 
-將 `.windsurf/skills/taiwan-public-icon-consultant.md` 複製到你的 Windsurf 設定目錄：
+# Windows
+# 複製到 %APPDATA%\Windsurf\skills\
 
-- macOS: `~/Library/Application Support/Windsurf/skills/`
-- Windows: `%APPDATA%\Windsurf\skills\`
-- Linux: `~/.config/Windsurf/skills/`
+# Linux
+cp .windsurf/skills/taiwan-public-icon-consultant.md ~/.config/Windsurf/skills/
+```
 
-### Claude Code
+**Claude Code**：
 
-#### 方法一：複製到專案
+```bash
+# macOS
+cp -r .claude/skills/taiwan-public-icon-consultant ~/Library/Application\ Support/Claude/skills/
 
-1. 複製此專案到你的工作區
-2. 在 Claude Code 中開啟專案
-3. AI 將自動載入 skill
+# Windows
+# 複製 .claude/skills/taiwan-public-icon-consultant/ 到 %APPDATA%\Claude\skills\
 
-#### 方法二：安裝到個人 Skills
+# Linux
+cp -r .claude/skills/taiwan-public-icon-consultant ~/.config/Claude/skills/
+```
 
-將 `.claude/skills/taiwan-public-icon-consultant/` 複製到你的 Claude Code 個人 skills 目錄：
+安裝後在 Claude Code 執行 `/skills` 確認已載入。
 
-- macOS: `~/Library/Application Support/Claude/skills/`
-- Windows: `%APPDATA%\Claude\skills\`
-- Linux: `~/.config/Claude/skills/`
+### 方法二：專案內使用
 
-複製後在 Claude Code 中執行 `/skills` 確認已載入。
+將此專案複製到你的工作區，AI 將自動偵測並載入 skill。
 
 ## 使用範例
 

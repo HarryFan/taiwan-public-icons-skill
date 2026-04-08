@@ -32,35 +32,21 @@ Code**，協助前端工程師、UI/UX 設計師、產品經理、建築師、�
 
 ### 方法一：全域安裝（推薦）
 
-複製 skill 檔案到你的 IDE 設定目錄，所有專案皆可使用：
-
-**Windsurf**：
-
-```bash
-# macOS
-cp .windsurf/skills/taiwan-public-icon-consultant.md ~/Library/Application\ Support/Windsurf/skills/
-
-# Windows
-# 複製到 %APPDATA%\Windsurf\skills\
-
-# Linux
-cp .windsurf/skills/taiwan-public-icon-consultant.md ~/.config/Windsurf/skills/
-```
-
-**Claude Code**：
+將 skill 複製到 AI IDE 的設定目錄，所有專案皆可使用：
 
 ```bash
 # macOS
 cp -r .claude/skills/taiwan-public-icon-consultant ~/Library/Application\ Support/Claude/skills/
-
-# Windows
-# 複製 .claude/skills/taiwan-public-icon-consultant/ 到 %APPDATA%\Claude\skills\
+cp .windsurf/skills/taiwan-public-icon-consultant.md ~/Library/Application\ Support/Windsurf/skills/
 
 # Linux
 cp -r .claude/skills/taiwan-public-icon-consultant ~/.config/Claude/skills/
+cp .windsurf/skills/taiwan-public-icon-consultant.md ~/.config/Windsurf/skills/
 ```
 
-安裝後在 Claude Code 執行 `/skills` 確認已載入。
+> Windows 使用者請將檔案複製到 `%APPDATA%\Claude\skills\` 或 `%APPDATA%\Windsurf\skills\`
+
+安裝後執行 `/skills` 確認已載入。
 
 ### 方法二：專案內使用
 

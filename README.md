@@ -4,7 +4,9 @@
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-orange)](https://claude.ai/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-![台灣公共圖標預覽](odportal-icons.jpg)
+|           公共設施類            |            交通設施類             |            無障礙與緊急類             |
+| :-----------------------------: | :-------------------------------: | :-----------------------------------: |
+| ![公共設施](odportal-icons.jpg) | ![交通設施](odportal-icons-2.jpg) | ![無障礙與緊急](odportal-icons-3.jpg) |
 
 這是一個 AI 技能，支援 **Windsurf** 與 **Claude
 Code**，協助前端工程師、UI/UX 設計師、產品經理、建築師、空間規劃者與導視設計人員，快速找到合適的台灣公共圖標（CNS16282）分類與應用方式。

@@ -22,12 +22,25 @@
 
 ### Skill 檔案編輯
 
-編輯 `.windsurf/skills/taiwan-public-icon-consultant.md` 時請注意：
+本專案支援 **Windsurf** 與 **Claude Code** 雙平台。編輯時請注意：
+
+**Windsurf Skill**: `.windsurf/skills/taiwan-public-icon-consultant.md`
+
+- 純 Markdown 格式
+- 無需前置資料
+
+**Claude Code Skill**: `.claude/skills/taiwan-public-icon-consultant/Skill.md`
+
+- YAML frontmatter 必填（name, description）
+- description 限 200 字元內
+
+**通用規範**:
 
 - 使用繁體中文
 - 用台灣慣用語
 - 保持格式一致性
 - 確保圖標代號正確
+- 兩個 skill 檔案內容應同步更新
 
 ### 新增圖標項目
 

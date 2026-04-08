@@ -11,6 +11,8 @@
 這是一個 AI 技能，支援 **Windsurf** 與 **Claude
 Code**，協助前端工程師、UI/UX 設計師、產品經理、建築師、空間規劃者與導視設計人員，快速找到合適的台灣公共圖標（CNS16282）分類與應用方式。
 
+![台灣公共圖標庫示意圖](odportal-icons-5.jpg)
+
 ## 圖標來源
 
 - **官方圖標庫**：https://icons.odportal.tw/
@@ -145,14 +147,14 @@ UI 圖標尺寸：24px、32px、48px
 
 | 用途         | 圖標名稱     | 代號 | 官方連結                                      |
 | ------------ | ------------ | ---- | --------------------------------------------- |
-| 男洗手間     | 男洗手間     | A011 | [查看](https://icons.odportal.tw/icons/A011/) |
-| 女洗手間     | 女洗手間     | A012 | [查看](https://icons.odportal.tw/icons/A012/) |
-| 無障礙洗手間 | 無障礙洗手間 | G011 | [查看](https://icons.odportal.tw/icons/G011/) |
-| 電梯         | 電梯         | A021 | [查看](https://icons.odportal.tw/icons/A021/) |
-| 緊急出口     | 緊急出口     | H011 | [查看](https://icons.odportal.tw/icons/H011/) |
-| 捷運         | 捷運         | B011 | [查看](https://icons.odportal.tw/icons/B011/) |
-| 公車         | 公車         | B021 | [查看](https://icons.odportal.tw/icons/B021/) |
-| WiFi         | WiFi         | L011 | [查看](https://icons.odportal.tw/icons/L011/) |
+| 男洗手間     | 男廁所              | A008  | [查看](https://icons.odportal.tw/icons/A008/)  |
+| 女洗手間     | 女廁所              | A009  | [查看](https://icons.odportal.tw/icons/A009/)  |
+| 無障礙設施   | 無障礙 / 無障礙設施 | G001  | [查看](https://icons.odportal.tw/icons/G001/)  |
+| 電梯         | 電梯                | A038  | [查看](https://icons.odportal.tw/icons/A038/)  |
+| 緊急出口     | 緊急出口（向左）    | H1001 | [查看](https://icons.odportal.tw/icons/H1001/) |
+| 捷運         | 捷運（站）          | B003  | [查看](https://icons.odportal.tw/icons/B003/)  |
+| 公車         | 巴士（站）          | B007  | [查看](https://icons.odportal.tw/icons/B007/)  |
+| WiFi         | 無線網路            | A031  | [查看](https://icons.odportal.tw/icons/A031/)  |
 
 完整圖標清單請見：[https://icons.odportal.tw/](https://icons.odportal.tw/)
 
